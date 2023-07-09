@@ -1,0 +1,38 @@
+.cta-box {
+  background-color: $color-primary-coral;
+  background-image: url(../img/bg-pattern-home-6-about-5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom -2.5rem left;
+
+  @media only screen and (min-width: 90em) {
+    background-position: bottom left;
+  }
+
+  color: $color-green-dark;
+
+  .wrapper {
+    padding-top: 8.3rem;
+    padding-bottom: 8.3rem;
+    @media only screen and (min-width: 48em) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .btn-contact {
+        margin: 0;
+      }
+    }
+    @media only screen and (min-width: 90em) {
+      padding: 7.6rem 18.3vw 6.9rem 18.3vw;
+    }
+  }
+
+  .heading-2 {
+    margin-bottom: 1.6rem;
+    @media only screen and (min-width: 48em) {
+      margin: 0;
+    }
+    @media only screen and (min-width: 90em) {
+      margin-top: 0.7rem;
+    }
+  }
+}

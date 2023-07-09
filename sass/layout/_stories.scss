@@ -1,0 +1,60 @@
+.stories {
+    background-color: $color-blue-dark;
+    display: block;
+    position: relative;
+
+    background-image: url(../img/bg-pattern-home-4-about-3.svg), url(../img/bg-pattern-about-2-contact-1.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom -10.1rem right 0;
+
+    .wrapper {
+        padding-top: 14.5rem;
+        padding-bottom: 15.1rem;
+    }
+
+    .story {
+        margin-top: 4rem;
+        padding-top: 3.9rem;
+
+        background-image: url(../img/icon-quotes.svg);
+        background-repeat: no-repeat;
+        background-position: top;   
+
+        @media only screen and (min-width: 75em) {
+            padding-top: 4.7rem;
+            background-size: 18%;
+            background-position: top;
+        }
+
+        &__person {
+            display: block;
+            @media only screen and (min-width: 75em) {
+                margin-top: 2.6rem;
+            }
+        }
+
+        &__position {
+            display: block;
+            margin-bottom: 1.7rem; 
+            @media only screen and (min-width: 75em) {
+                margin-top: 0.4rem;
+                margin-bottom: 3.1rem;
+            }
+        }
+
+        &__photo-box {
+            display: block;
+            width: 6.2rem;
+            height: 6.2rem;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #C4FFFE;
+            margin: 0 auto;
+
+            img {
+                height: 100%;
+                backface-visibility: hidden;
+            }
+        }
+    }
+}
